@@ -1,0 +1,27 @@
+# Log properties
+logging:
+  level.org.springframework: INFO
+  level.com.dbg: DEBUG
+##  level.org.springframework.data.mongodb.core.MongoTemplate: DEBUG
+# Spring properties
+spring:
+  application:
+    name: foodPlanner
+  # MONGODB (MongoProperties)
+  data:
+    mongodb:
+      url: mongodb://localhost/babyDiary
+      spring:
+#  datasource:
+#    url: jdbc:mysql://localhost:3306/clinic
+#    username: root
+#    password: root
+#  jpa:
+#    show-sql: true
+#    format-sql: true
+#    hibernate:
+#      ddl-auto: create
+#      dialect: org.hibernate.dialect.MySQL5Dialect
+# HTTP Server
+server:
+  port: 8081
